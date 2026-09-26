@@ -1,0 +1,10 @@
+
+	Spearman's rank correlation rho
+
+data:  condition_dependence$ssd and condition_dependence$density_sensitivity
+S = 24, p-value = 0.5441
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3142857 
+

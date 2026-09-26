@@ -1,0 +1,5 @@
+"Model","AIC","Log_likelihood"
+"Full factorial model",1887.80952229799,-929.904761148995
+"Treatment * Selection + Sex",1929.58387017452,-955.79193508726
+"Sex * Treatment + Selection",1901.97547294412,-941.98773647206
+"Sex + Treatment + Selection",1939.89128425472,-962.945642127359
