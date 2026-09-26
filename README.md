@@ -29,7 +29,7 @@ The script writes all generated tables and figures to `outputs/`. It also saves 
 
 ## Analysis overview
 
-We first use a PCA to combine femur, tibia, thorax, and average wing length into a composite measure of body size. The PCA is fitted across all individuals, sexes, selection regimes, and density treatments after centering and scaling the traits. PC1 is then analysed with a linear mixed-effects model containing the full `Treatment × Sex × Selection` factorial structure and ancestry block as a random effect.
+We first use a PCA to combine femur, tibia, thorax, and wing lengths into a composite measure of body size. The PCA is fitted across all individuals, sexes, selection regimes, and density treatments after centering and scaling the traits. PC1 is then analysed with a linear mixed-effects model containing the full `Treatment × Sex × Selection` factorial structure and ancestry block as a random effect.
 
 The full model is compared with reduced models using maximum likelihood because AIC values from models with different fixed effects should not be compared after REML fitting. The final inferential model is then refitted using REML, matching the analysis described in the manuscript. Model assumptions are checked using standard residual plots and simulation-based diagnostics in `DHARMa`. The script also identifies observations with standardized residuals greater than three in absolute value and repeats the model as a sensitivity analysis without those observations; the full dataset remains the primary analysis.
 
@@ -39,11 +39,6 @@ For the trait-wise analyses, each focal trait is corrected for body size using a
 
 Finally, the script compares the magnitude of sexual dimorphism among size-corrected traits with their sensitivity to larval density using a Spearman rank correlation. As in the manuscript, this comparison is treated as descriptive because it contains only six traits.
 
-## Reproducibility notes
-
-The repository is intended to reproduce the analyses reported in the revised manuscript rather than preserve the exploratory order in which the analyses were originally developed. The code has therefore been reorganized into a single analysis workflow, repeated operations have been converted into functions, intermediate objects have been given descriptive names, and output files are written systematically.
-
-No observations are silently removed by the analysis script. Diagnostic exclusions are performed only in the explicitly labelled outlier-sensitivity analysis.
 
 ## Citation
 
