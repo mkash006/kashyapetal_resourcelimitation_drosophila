@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use the code or data in this repository, please cite it using the metadata below."
+
+title: "Resource Limitation Shapes the Evolution of Sexual Dimorphism and Condition Dependence in Drosophila melanogaster"
+
+type: software
+
+authors:
+  - family-names: "Kashyap"
+    given-names: "Mayank"
+    orcid: "https://orcid.org/0000-0002-2777-3738"
+    email: "mkash006@ucr.edu"
+    affiliation: "Department of Biological Science, University of California, Riverside"
+
+  - name: "Muskaan"
+    orcid: "https://orcid.org/0009-0002-8233-2027"
+    email: "muskaan.jal.99@gmail.com"
+    affiliation: "UMR 8198 – Evo-Eco-Paleo, CNRS, Université de Lille, Lille F-59000, France"
+
+  - family-names: "Kapila"
+    given-names: "Rohit"
+    orcid: "https://orcid.org/0000-0003-0263-5598"
+    email: "rkapila@fiu.edu"
+    affiliation: "Department of Biological Sciences, Florida International University"
+
+  - family-names: "Prasad"
+    given-names: "N G"
+    orcid: "https://orcid.org/0000-0002-0410-5518"
+    email: "prasad@iisermohali.ac.in"
+    affiliation: "Department of Biological Science, IISER Mohali"
+
+repository-code: "https://github.com/mkash006/kashyapetal_resourcelimitation_drosophila"
