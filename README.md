@@ -42,7 +42,8 @@ Finally, the script compares the magnitude of sexual dimorphism among size-corre
 
 ## Citation
 
-If you use these data or code, please cite the associated manuscript and the archived Zenodo release. The Zenodo DOI can be added here after the GitHub repository has been connected to Zenodo and the first release has been archived.
+If you use these data or code, please cite the associated manuscript and the archived Zenodo release. 
+https://doi.org/10.5281/zenodo.22970231
 
 ## Authors
 
